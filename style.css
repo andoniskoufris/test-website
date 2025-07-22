@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', -apple-system, 'Helvetica', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    /* max-width: 80%; */
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+
+.top-banner {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 16px;
+    margin: 0px;
+    padding-bottom: 80px;
+}
+
+.website-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blurb-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #48586e;
+}
+
+.blurb {
+    flex: 1;
+}
+
+.random-information {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-and-caption {
+    width: 100px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.random-information-image {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(60, 74, 228);
+    border-radius: 12px;
+    margin: 12px;
+    /* box-sizing: border-box; */
+}
+
+.image-caption {
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    margin: 80px 0px;
+    padding: 50px 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-weight: bold;
+}
+
+
